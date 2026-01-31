@@ -1,17 +1,17 @@
-File Transfer System 
-Project Overview 
+# File Transfer System 
+## Project Overview 
 This is a Java-based TCP File Transfer System that allows multiple clients to download and 
 upload files to/from a central server simultaneously. 
 The system demonstrates proper socket-based communication, multi-threading, and two
 way data flow. 
-Features 
+## Features 
 TCP Communication: All client-server communication uses TCP sockets.Multi-Client 
 Support: Server can handle multiple clients concurrently using threads. 
 Authentication: Clients must log in with a valid username and password. 
 File Download: Clients can request files stored on the server. 
 File Upload  : Clients can upload files to the server. 
 Two-way Flow: Server responds to each client request and confirms file transfer. 
-How to Compile & Run 
+## How to Compile & Run 
 1. Compile all Java files 
 javac src\common\*.java src\server\*.java src\client\*.java 
 2. Start the Server 
